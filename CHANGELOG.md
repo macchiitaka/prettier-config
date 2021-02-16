@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/macchiitaka/prettier-config/compare/v1.0.0...v1.0.1) (2021-02-16)
+
+
+### Bug Fixes
+
+* **npm:** ignore some files ([7a7e679](https://github.com/macchiitaka/prettier-config/commit/7a7e679d53a64f1107caf71cdc86bf2a0e92c774))
+
 ## [1.0.0](https://github.com/macchiitaka/prettier-config/compare/v0.0.1...v1.0.0) (2021-02-16)
 
 
