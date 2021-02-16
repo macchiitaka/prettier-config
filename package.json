@@ -1,0 +1,34 @@
+{
+  "name": "@macchiitaka/prettier-config",
+  "version": "0.0.1",
+  "private": false,
+  "description": "A sharable Prettier config for macchiitaka",
+  "keywords": [],
+  "homepage": "https://github.com/macchiitaka/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/macchiitaka/prettier-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macchiitaka/prettier-config.git"
+  },
+  "license": "MIT",
+  "author": "macchiitaka <zxcvbnmtacashi@gmail.com>",
+  "main": ".prettierrc.js",
+  "scripts": {
+    "fmt": "run-p fmt:**",
+    "fmt:js": "prettier --write --tab-width 2 '**/*.js'",
+    "fmt:json": "prettier --write --tab-width 2 '**/*.json'",
+    "fmt:md": "prettier --write --tab-width 2 '**/*.md'",
+    "fmt:package-json": "sort-package-json"
+  },
+  "devDependencies": {
+    "@types/prettier": "^2.2.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.2.1",
+    "sort-package-json": "^1.48.1"
+  },
+  "peerDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
