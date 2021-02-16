@@ -1,5 +1,5 @@
 {
-  "name": "@macchiitaka/prettier-config",
+  "name": "@takamachi/prettier-config",
   "version": "0.0.1",
   "private": false,
   "description": "A sharable Prettier config for macchiitaka",

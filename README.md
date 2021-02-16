@@ -1,4 +1,4 @@
-# @macchiitaka/prettier-config
+# @takamachi/prettier-config
 
 A sharable Prettier config for macchiitaka.
 
@@ -7,7 +7,7 @@ A sharable Prettier config for macchiitaka.
 - `.prettierrc.js`
 
 ```js
-module.exports = require('@macchiitaka/prettier-config')
+module.exports = require('@takamachi/prettier-config')
 ```
 
 ## License
