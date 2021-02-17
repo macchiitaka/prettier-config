@@ -2,7 +2,9 @@
   "name": "@takamachi/prettier-config",
   "version": "1.0.1",
   "description": "A sharable Prettier config for macchiitaka",
-  "keywords": ["Prettier"],
+  "keywords": [
+    "Prettier"
+  ],
   "homepage": "https://github.com/macchiitaka/prettier-config#readme",
   "bugs": {
     "url": "https://github.com/macchiitaka/prettier-config/issues"
@@ -16,12 +18,15 @@
   "main": ".prettierrc.js",
   "scripts": {
     "fmt": "run-p fmt:**",
-    "fmt:js": "prettier --write --tab-width 2 '**/*.js'",
-    "fmt:json": "prettier --write --tab-width 2 '**/*.json'",
-    "fmt:md": "prettier --write --tab-width 2 '**/*.md'",
-    "fmt:package-json": "sort-package-json"
+    "fmt:eslint": "eslint **/*.js --fix --cache",
+    "fmt:package-json": "sort-package-json",
+    "fmt:pretier:json": "prettier --write --tab-width 2 '**/*.json'",
+    "fmt:pretier:md": "prettier --write --tab-width 2 '**/*.md'",
+    "lint": "run-p lint:**",
+    "lint:eslint": "eslint **/*.js --cache"
   },
   "devDependencies": {
+    "@takamachi/eslint-config": "^0.0.1",
     "@types/prettier": "^2.2.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.2.1",
