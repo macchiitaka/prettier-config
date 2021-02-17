@@ -2,7 +2,9 @@
   "name": "@takamachi/prettier-config",
   "version": "1.0.1",
   "description": "A sharable Prettier config for macchiitaka",
-  "keywords": ["Prettier"],
+  "keywords": [
+    "Prettier"
+  ],
   "homepage": "https://github.com/macchiitaka/prettier-config#readme",
   "bugs": {
     "url": "https://github.com/macchiitaka/prettier-config/issues"
