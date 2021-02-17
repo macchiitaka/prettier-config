@@ -1,7 +1,6 @@
 {
   "name": "@takamachi/prettier-config",
   "version": "1.0.1",
-  "private": false,
   "description": "A sharable Prettier config for macchiitaka",
   "keywords": [],
   "homepage": "https://github.com/macchiitaka/prettier-config#readme",
